@@ -1,0 +1,51 @@
+body {
+    font-family: sans-serif;
+    background-color:gainsboro;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    
+}
+
+#cotizaciones {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cotizaciones th {
+    border: 1px solid black;
+    padding: 10px;
+    color: whitesmoke;
+    background-color: black;
+}
+
+#cotizaciones td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    background-color:whitesmoke;
+}
+
+#botonActualizar {
+    color: whitesmoke;
+    font-weight: bolder;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    background-color: black;
+}
+
+#botonActualizar:hover {
+    cursor: pointer;
+}
+
+
+.botonera {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 20px;
+}

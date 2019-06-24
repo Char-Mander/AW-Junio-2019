@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 1%;
+}
+
+div.container{
+    font-family: Arial;
+    color: whitesmoke;
+    width: 350px;
+    background-color: silver;
+    padding:4px;
+}
+
+div.fecha{
+    display: flex;
+    height: 60px;
+    font-size: 20px;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    background-color: dimgray;
+    margin-bottom: 5px;
+}
+
+div.fechaitem{
+    margin: 3px;
+}
+
+div.hora{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    background-color: dimgray;
+   
+}
+
+div.horas, div.minutos, div.dospuntos{
+    font-size: 80px;
+}
+
+div.cajahora{
+    height: 100px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+div.horaitem{
+    margin: 2.5px;
+}
